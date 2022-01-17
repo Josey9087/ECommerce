@@ -10,6 +10,7 @@ Tag.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
+      autoIncrement: true
     // define columns
   },
     tag_name: {
